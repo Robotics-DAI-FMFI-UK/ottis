@@ -81,13 +81,19 @@ Second board (arduino nano, connections soldered, display on detachable connecto
 Software requirements:
 
 * regular arduino IDE with usual libraries:
-** Adafruit_ST7735 (has two more Adafruit prereq) (for our TFT, this required modifying file   Adafruit_ST7735_and_ST7789_Library\Adafruit_ST7735.cpp as follows:
+* Arduino_mpu6050_master
+* Adafruit_ST7735 (has two more Adafruit prereq) 
+* for our TFT, this required modifying file   Adafruit_ST7735_and_ST7789_Library\Adafruit_ST7735.cpp as follows:
  insert lines:
-	_colstart = 2;
+
+    _colstart = 2;
+
     _rowstart = 1;
+
  behind line:
+
     displayInit(Rcmd2red);
-** Arduino_mpu6050_master
+
 
 
 Building:
