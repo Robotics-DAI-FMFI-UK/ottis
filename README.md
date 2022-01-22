@@ -106,3 +106,8 @@ Control:
 * connect over USB or BT (even from mobile phone using arduino serial controller) and type 'h' to get help
 * three modes: Control mode (direct control), Edit mode (editting choreographies), Debug mode (debugging choreographies)
 * you may want to change the initial[] array 
+
+
+Development:
+
+* early trying after all pieces connected: https://www.youtube.com/watch?v=y5BnbnsZND8
